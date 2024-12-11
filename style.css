@@ -30,6 +30,7 @@ h1{
   font-size: 2.5rem;
   margin-bottom: .5rem;
   color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 h2{
@@ -37,6 +38,7 @@ h2{
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 .text-blue{
@@ -112,6 +114,7 @@ h2{
   flex-direction: column;
   justify-content: center;
   color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 .infos{
