@@ -109,7 +109,7 @@ h2{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #D3D3D3; /* Gris clair */
+  background-color: #B0E0E6; /* Gris clair légèrement cyan */
   display: flex;
   flex-direction: column;
   justify-content: center;
