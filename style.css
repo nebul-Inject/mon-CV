@@ -13,7 +13,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #4472C4;
+  color: #800000; /* Bordeaux */
 }
 
 a:hover{
@@ -22,26 +22,31 @@ a:hover{
 
 p{
   margin: 0 0 1rem;
+  color: #000000; /* Noir */
 }
 
 h1{
   margin: 0 0 1rem;
   font-size: 2.5rem;
   margin-bottom: .5rem;
+  color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 h2{
   margin: 0 0 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 .text-blue{
-  color: #4472C4;
+  color: #800000; /* Bordeaux */
 }
 
 .text-darkblue{
-  color: #002060;
+  color: #4B0000; /* Bordeaux foncé */
 }
 
 .text-uppercase{
@@ -69,8 +74,8 @@ h2{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #7991DD;
-  color: white;
+  background-color: #4B0000; /* Bordeaux foncé */
+  color: #000000; /* Noir */
 }
 
 .portait{
@@ -87,6 +92,7 @@ h2{
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 0 1rem;
+  color: #000000; /* Noir */
 }
 
 /* RIGHT COLUMN */
@@ -103,24 +109,29 @@ h2{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #5DE2E7;
+  background-color: #D3D3D3; /* Gris clair */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #000000; /* Noir */
+  text-align: center; /* Centrer le texte */
 }
 
 .infos{
   columns: 2;
   list-style-type: none;
   padding: 0;
+  color: #000000; /* Noir */
 }
 
 /* CONTENT */
 .content{
   grid-area: content;
   padding: 50px;
+  color: #000000; /* Noir */
 }
 
 .experience-list{
   list-style-type: circle;
+  color: #000000; /* Noir */
 }
