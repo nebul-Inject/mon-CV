@@ -13,7 +13,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #800000; /* Bordeaux */
+  color: #4472C4; /* Couleur originale */
 }
 
 a:hover{
@@ -22,31 +22,26 @@ a:hover{
 
 p{
   margin: 0 0 1rem;
-  color: #000000; /* Noir */
 }
 
 h1{
   margin: 0 0 1rem;
   font-size: 2.5rem;
   margin-bottom: .5rem;
-  color: #000000; /* Noir */
-  text-align: center; /* Centrer le texte */
 }
 
 h2{
   margin: 0 0 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #000000; /* Noir */
-  text-align: center; /* Centrer le texte */
 }
 
 .text-blue{
-  color: #800000; /* Bordeaux */
+  color: #4472C4;
 }
 
 .text-darkblue{
-  color: #4B0000; /* Bordeaux foncé */
+  color: #002060;
 }
 
 .text-uppercase{
@@ -74,8 +69,8 @@ h2{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #4B0000; /* Bordeaux foncé */
-  color: #000000; /* Noir */
+  background-color: #7991DD;
+  color: white;
 }
 
 .portait{
@@ -92,7 +87,6 @@ h2{
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 0 1rem;
-  color: #000000; /* Noir */
 }
 
 /* RIGHT COLUMN */
@@ -113,25 +107,20 @@ h2{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #000000; /* Noir */
-  text-align: center; /* Centrer le texte */
 }
 
 .infos{
   columns: 2;
   list-style-type: none;
   padding: 0;
-  color: #000000; /* Noir */
 }
 
 /* CONTENT */
 .content{
   grid-area: content;
   padding: 50px;
-  color: #000000; /* Noir */
 }
 
 .experience-list{
   list-style-type: circle;
-  color: #000000; /* Noir */
 }
