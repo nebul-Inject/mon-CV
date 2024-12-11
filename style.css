@@ -13,7 +13,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #4472C4;
+  color: #32CD32; /* Vert clair */
 }
 
 a:hover{
@@ -37,11 +37,11 @@ h2{
 }
 
 .text-blue{
-  color: #4472C4;
+  color: #32CD32; /* Vert clair */
 }
 
 .text-darkblue{
-  color: #002060;
+  color: #006400; /* Vert foncé */
 }
 
 .text-uppercase{
@@ -69,7 +69,7 @@ h2{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #7991DD;
+  background-color: #228B22; /* Vert forêt */
   color: white;
 }
 
@@ -103,7 +103,7 @@ h2{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #5DE2E7;
+  background-color: #7FFF00; /* Vert chartreuse */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,6 +124,3 @@ h2{
 .experience-list{
   list-style-type: circle;
 }
-
-
-
