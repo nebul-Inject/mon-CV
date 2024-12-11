@@ -22,21 +22,21 @@ a:hover{
 
 p{
   margin: 0 0 1rem;
-  color: #EDEDED; /* Gris clair pour contraste */
+  color: #000000; /* Noir */
 }
 
 h1{
   margin: 0 0 1rem;
   font-size: 2.5rem;
   margin-bottom: .5rem;
-  color: #F5F5F5; /* Presque blanc */
+  color: #000000; /* Noir */
 }
 
 h2{
   margin: 0 0 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #D3D3D3; /* Gris pour visibilité */
+  color: #000000; /* Noir */
 }
 
 .text-blue{
@@ -73,7 +73,7 @@ h2{
   grid-area: left-column;
   padding: 50px;
   background-color: #4B0000; /* Bordeaux foncé */
-  color: #FFFFFF; /* Blanc pour meilleur contraste */
+  color: #000000; /* Noir */
 }
 
 .portait{
@@ -90,7 +90,7 @@ h2{
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 0 1rem;
-  color: #EDEDED; /* Gris clair pour contraste */
+  color: #000000; /* Noir */
 }
 
 /* RIGHT COLUMN */
@@ -111,24 +111,24 @@ h2{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #FFFFFF; /* Blanc pour contraste */
+  color: #000000; /* Noir */
 }
 
 .infos{
   columns: 2;
   list-style-type: none;
   padding: 0;
-  color: #EDEDED; /* Gris clair */
+  color: #000000; /* Noir */
 }
 
 /* CONTENT */
 .content{
   grid-area: content;
   padding: 50px;
-  color: #EDEDED; /* Gris clair */
+  color: #000000; /* Noir */
 }
 
 .experience-list{
   list-style-type: circle;
-  color: #D3D3D3; /* Gris pour contraste */
+  color: #000000; /* Noir */
 }
